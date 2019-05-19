@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Bokeh Plot</title>
+        
+<link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.css" type="text/css" />
+        
+<script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.12.10.min.js"></script>
+<script type="text/javascript">
+    Bokeh.set_log_level("info");
+</script>
+        <style>
+          html {
+            width: 100%;
+            height: 100%;
+          }
+          body {
+            width: 90%;
+            height: 100%;
+            margin: auto;
+          }
+        </style>
+    </head>
+    <body>
+        
+        <div class="bk-root">
+            <div class="bk-plotdiv" id="a4d4e8bc-f061-405b-b8d6-098e5d4eaa13"></div>
+        </div>
+        
+        <script type="text/javascript">
+            (function() {
+          var fn = function() {
+            Bokeh.safely(function() {
+              (function(root) {
+                function embed_document(root) {
+                  var docs_json = {"955820f5-6ff8-466a-8710-9eb1e45b9ffb":{"roots":{"references":[{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.6},"x":{"field":"x"}},"id":"202f26e4-a7a8-4f98-8356-d37b90062346","type":"VBar"},{"attributes":{"callback":null,"column_names":["x","top"],"data":{"top":[11,13,18,6,9,6,4,6,6,4,4,4],"x":["History","Shopping","Sports","Education","Story Reading And Novels","Finance","Information Technology","Travel","Medical Science","Politics","Entertainment","Food"]}},"id":"c1222e0b-0304-4527-abd8-5bd9b21dcbd6","type":"ColumnDataSource"},{"attributes":{},"id":"ec19621c-76c5-40b7-b595-0c3ce6018b9a","type":"BasicTicker"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_scroll":"auto","active_tap":"auto"},"id":"f9c73da6-6a30-4e3d-943b-f628603bdabc","type":"Toolbar"},{"attributes":{"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"field":"top"},"width":{"value":0.6},"x":{"field":"x"}},"id":"85d41d37-b260-49e7-9f20-20be39641f79","type":"VBar"},{"attributes":{"callback":null,"start":1},"id":"d78327c1-ac29-417c-b2ec-493dd7715710","type":"DataRange1d"},{"attributes":{},"id":"0d7da377-25b8-4d68-87c3-96f9e42bc2a1","type":"LinearScale"},{"attributes":{},"id":"f887a0eb-3cbe-42c5-a976-235a4c967952","type":"BasicTickFormatter"},{"attributes":{"below":[{"id":"eb9a58c9-d4a7-457d-86e1-9ec7c801b0fb","type":"CategoricalAxis"}],"left":[{"id":"8ffbc322-dc3e-493d-a4af-db99026adba9","type":"LinearAxis"}],"plot_height":550,"plot_width":550,"renderers":[{"id":"eb9a58c9-d4a7-457d-86e1-9ec7c801b0fb","type":"CategoricalAxis"},{"id":"80e3d46a-4072-4456-ad50-8bbdedf59bb2","type":"Grid"},{"id":"8ffbc322-dc3e-493d-a4af-db99026adba9","type":"LinearAxis"},{"id":"c484402e-878e-4662-ad9d-cfc521c00585","type":"Grid"},{"id":"7533c05d-f3ab-4246-9ba3-3db6cbdf3ebd","type":"GlyphRenderer"}],"title":{"id":"4644122c-277a-4533-a0db-5cfff9fe8c40","type":"Title"},"toolbar":{"id":"f9c73da6-6a30-4e3d-943b-f628603bdabc","type":"Toolbar"},"toolbar_location":null,"x_range":{"id":"2c920315-786b-4ec7-b8e9-8366977d599d","type":"FactorRange"},"x_scale":{"id":"52ce2995-bfe5-41a6-9926-2a0ee7a74457","type":"CategoricalScale"},"y_range":{"id":"d78327c1-ac29-417c-b2ec-493dd7715710","type":"DataRange1d"},"y_scale":{"id":"0d7da377-25b8-4d68-87c3-96f9e42bc2a1","type":"LinearScale"}},"id":"66593fec-11a8-4c70-b95b-45835364c0ba","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"9998022d-9ca4-4224-850a-4f42b4fea9ff","type":"CategoricalTickFormatter"},{"attributes":{},"id":"ea5b3a81-041b-4afc-9bfa-f583f6ce9991","type":"CategoricalTicker"},{"attributes":{"axis_label":"Percentage","axis_label_text_color":{"value":"Orange"},"axis_label_text_font_size":{"value":"15pt"},"formatter":{"id":"f887a0eb-3cbe-42c5-a976-235a4c967952","type":"BasicTickFormatter"},"plot":{"id":"66593fec-11a8-4c70-b95b-45835364c0ba","subtype":"Figure","type":"Plot"},"ticker":{"id":"ec19621c-76c5-40b7-b595-0c3ce6018b9a","type":"BasicTicker"}},"id":"8ffbc322-dc3e-493d-a4af-db99026adba9","type":"LinearAxis"},{"attributes":{},"id":"52ce2995-bfe5-41a6-9926-2a0ee7a74457","type":"CategoricalScale"},{"attributes":{"callback":null,"factors":["History","Shopping","Sports","Education","Story Reading And Novels","Finance","Information Technology","Travel","Medical Science","Politics","Entertainment","Food"]},"id":"2c920315-786b-4ec7-b8e9-8366977d599d","type":"FactorRange"},{"attributes":{"data_source":{"id":"c1222e0b-0304-4527-abd8-5bd9b21dcbd6","type":"ColumnDataSource"},"glyph":{"id":"85d41d37-b260-49e7-9f20-20be39641f79","type":"VBar"},"hover_glyph":null,"muted_glyph":null,"nonselection_glyph":{"id":"202f26e4-a7a8-4f98-8356-d37b90062346","type":"VBar"},"selection_glyph":null,"view":{"id":"37d5cf8f-b3a1-4f3b-9e80-46e99972212f","type":"CDSView"}},"id":"7533c05d-f3ab-4246-9ba3-3db6cbdf3ebd","type":"GlyphRenderer"},{"attributes":{"source":{"id":"c1222e0b-0304-4527-abd8-5bd9b21dcbd6","type":"ColumnDataSource"}},"id":"37d5cf8f-b3a1-4f3b-9e80-46e99972212f","type":"CDSView"},{"attributes":{"axis_label":"Categories","axis_label_text_color":{"value":"Red"},"axis_label_text_font_size":{"value":"15pt"},"formatter":{"id":"9998022d-9ca4-4224-850a-4f42b4fea9ff","type":"CategoricalTickFormatter"},"major_label_orientation":1.0471975511965976,"plot":{"id":"66593fec-11a8-4c70-b95b-45835364c0ba","subtype":"Figure","type":"Plot"},"ticker":{"id":"ea5b3a81-041b-4afc-9bfa-f583f6ce9991","type":"CategoricalTicker"}},"id":"eb9a58c9-d4a7-457d-86e1-9ec7c801b0fb","type":"CategoricalAxis"},{"attributes":{"align":"center","plot":null,"text":"Categories Vs Number Of Users","text_color":{"value":"Green"},"text_font":"times","text_font_size":{"value":"15pt"},"text_font_style":"italic"},"id":"4644122c-277a-4533-a0db-5cfff9fe8c40","type":"Title"},{"attributes":{"dimension":1,"plot":{"id":"66593fec-11a8-4c70-b95b-45835364c0ba","subtype":"Figure","type":"Plot"},"ticker":{"id":"ec19621c-76c5-40b7-b595-0c3ce6018b9a","type":"BasicTicker"}},"id":"c484402e-878e-4662-ad9d-cfc521c00585","type":"Grid"},{"attributes":{"grid_line_color":{"value":null},"plot":{"id":"66593fec-11a8-4c70-b95b-45835364c0ba","subtype":"Figure","type":"Plot"},"ticker":{"id":"ea5b3a81-041b-4afc-9bfa-f583f6ce9991","type":"CategoricalTicker"}},"id":"80e3d46a-4072-4456-ad50-8bbdedf59bb2","type":"Grid"}],"root_ids":["66593fec-11a8-4c70-b95b-45835364c0ba"]},"title":"Bokeh Application","version":"0.12.10"}};
+                  var render_items = [{"docid":"955820f5-6ff8-466a-8710-9eb1e45b9ffb","elementid":"a4d4e8bc-f061-405b-b8d6-098e5d4eaa13","modelid":"66593fec-11a8-4c70-b95b-45835364c0ba"}];
+              
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                }
+              
+                if (root.Bokeh !== undefined) {
+                  embed_document(root);
+                } else {
+                  var attempts = 0;
+                  var timer = setInterval(function(root) {
+                    if (root.Bokeh !== undefined) {
+                      embed_document(root);
+                      clearInterval(timer);
+                    }
+                    attempts++;
+                    if (attempts > 100) {
+                      console.log("Bokeh: ERROR: Unable to embed document because BokehJS library is missing")
+                      clearInterval(timer);
+                    }
+                  }, 10, root)
+                }
+              })(window);
+            });
+          };
+          if (document.readyState != "loading") fn();
+          else document.addEventListener("DOMContentLoaded", fn);
+        })();
+        
+        </script>
+    </body>
+</html>
