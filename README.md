@@ -4,9 +4,9 @@ Strategic Marketing Based on User's Interests From Twitter Data
 About the Project:
 ------------------------
 
-This project is to design a recommendation model that helps organization identify their target audience based on users interests and promote special orders and ads thereby enhancing the organizations marketing strategies. It is done by extracting data from Twitter and utilizing the captured data by processing it in order to make an analysis on users interests by using language processing and n grams for categorization of data. The data of users interests are collected from twitter in the form of tweets, retweets and favorites. The
-aim of this project to make a research in the field of natural language processing and n-grams in order to find and implement an
-effective marketing strategy by measuring real-time tweets and retweets made by user on any topic based on that. In collecting the data, we used tweepy API to extract tweets, retweets and favorites. In continuation to that the twitter entries were classified into relevant categories with an accuracy of 85% by using natural language processing algorithms where an investigation was made on developing a method to analyze positive sentiments of tweets, retweets and favorites resulting in a satisfying 90.45% accuracy for this mining application. The interests of a individual user are depicted in the form of pie chart using matplotlib and overall user interests are depicted in the form of bar graph using bokeh. The methods used in this project can be used for any twitter user account with public opinions.
+The aim of this project was to build a recommendations sytem that can help an organization to target their customers based on their specific interests. This can help the organization in forming effective marketing stratgies to attract customers. Users interests are gathered from their twitter account in the form of tweets, favorites etc. 
+For collecting data we used tweepy API to extract tweets, favorites etc. Then we classified the users interests into relevant categories with an accuracy of about 85% by using nlp algorithms. We also performed sentiment analysis of tweets, retweets and were able to achieve an accuracy of 90%. Individual user interesta are displayed using pie chart built using matplotlib whereas overall user interests are displayed using bar graph built using bokeh.
+
 
 Steps to run the notebook file:
 -----------------------------------
